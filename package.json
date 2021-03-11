@@ -1,15 +1,16 @@
 {
-  "name": "prisma-offset-pagination",
+  "name": "@gosuac/prisma-offset-pagination",
   "version": "0.0.3",
   "description": "prisma-offset-pagination",
-  "main": "dist/index.js",
-  "repository": "git@github.com:dooboolab/prisma-offset-pagination.git",
+  "main": "./dist/index.js",
+  "repository": "git@github.com:gosuac/prisma-offset-pagination.git",
   "author": "smallbee3 <smallbee3@gmail.com>",
   "license": "MIT",
   "scripts": {
     "clean": "rm -rf dist",
     "build": "npm -s run clean && tsc",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "publish": "npm publish"
   },
   "devDependencies": {
     "@types/node": "^14.0.22",

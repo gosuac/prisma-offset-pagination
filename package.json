@@ -1,6 +1,6 @@
 {
   "name": "@gosuac/prisma-offset-pagination",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "prisma-offset-pagination",
   "main": "./dist/index.js",
   "repository": "git@github.com:gosuac/prisma-offset-pagination.git",
